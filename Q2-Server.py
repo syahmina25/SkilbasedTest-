@@ -5,7 +5,7 @@ def fahrenheit_to_celsius(fahrenheit):
     return celsius
 
 def main():
-    host = "127.0.0.1"
+    host = "192.168.229.128"
     port = 8080
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
