@@ -16,7 +16,7 @@ def handle_client(client_socket):
     client_socket.close()
 
 def main():
-    host = "127.0.0.1"
+    host = "192.168.229.128"
     port = 8888
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
