@@ -10,7 +10,6 @@ def main():
     fahrenheit = input("Enter temperature in Fahrenheit: ")
     s.send(fahrenheit.encode())
 
-
     celsius = s.recv(1024).decode()
     print(f"Temperature in Celsius: {celsius}")
     s.close()
